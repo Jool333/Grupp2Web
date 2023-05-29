@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj": {}
+    "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj": {
+    "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
         "projectName": "JensensWebApp",
-        "projectPath": "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
-        "packagesPath": "C:\\Users\\Hanne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hanne\\OneDrive\\Skrivbord\\JENSEN\\HuvudProject\\JensenWebApplication\\JensensWebApp\\obj\\",
+        "projectPath": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
+        "packagesPath": "C:\\Users\\Johan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hanne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
