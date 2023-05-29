@@ -192,13 +192,6 @@ namespace JensensWebApp.Controllers
             return View();
         }
 
-        public void Test()
-        {
-            int one = 1;
-            Console.WriteLine("123");
-            if (1 > 0) Console.WriteLine(2);
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
