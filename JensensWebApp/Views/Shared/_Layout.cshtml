@@ -43,6 +43,20 @@
 </header>
     <div class="container">
         <main role="main" class="pb-3">
+            <div class="searchbox">
+                <div>
+                    <input type="text" name="searchbar" placeholder="Search..." />
+                    <input type="submit" name="submitSearch" value="Search" />
+                </div>
+                <div>
+                    <label for="sort">Sort</label>
+                    <select name="sort" id="sort">
+                        <option>Select an option</option>
+                        <option value="New">Newest first</option>
+                        <option value="Old">Oldest first</option>
+                    </select>
+                </div>
+            </div>
             @RenderBody()
         </main>
     </div>
