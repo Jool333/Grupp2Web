@@ -43,20 +43,39 @@
 </header>
     <div class="container">
         <main role="main" class="pb-3">
-            <div class="searchbox">
-                <div>
-                    <input type="text" name="searchbar" placeholder="Search..." />
-                    <input type="submit" name="submitSearch" value="Search" />
+            <div class="leftPanel">
+                <div class="searchBox">
+                    <div>
+                        <input type="text" name="searchbar" placeholder="Sök..." />
+                        <input type="submit" name="submitSearch" value="Sök" />
+                    </div>
+                    <div>
+                        <label for="sort">Sortera</label>
+                        <select name="sort" id="sort">
+                            <option>Välj ett alternativ</option>
+                            <option value="New">Nyaste först</option>
+                            <option value="Old">Älsta först</option>
+                        </select>
+                    </div>
+                    <div>
+                        <a href="">Fler sökalternativ</a>
+                    </div>
                 </div>
-                <div>
-                    <label for="sort">Sort</label>
-                    <select name="sort" id="sort">
-                        <option>Select an option</option>
-                        <option value="New">Newest first</option>
-                        <option value="Old">Oldest first</option>
-                    </select>
+                <div class="adBox">
+                    <div class="ad">
+                        <img src="~/images/hands_to_small.webp"/>
+                    </div>
+                    <div class="ad">
+                        <video autoplay loop muted>
+                            <source src="~/images/the_two_faces_of_squidward_174.webm" type="audio/webm" />
+                        </video>
+                    </div>
+                    <div  class="ad">
+                        <img src="~/images/malmo_basta-kebab.webp"/>
+                    </div>
                 </div>
             </div>
+            
             @RenderBody()
         </main>
     </div>

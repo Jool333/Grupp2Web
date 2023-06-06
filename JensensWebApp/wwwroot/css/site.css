@@ -65,14 +65,38 @@ body {
   align-self: center;
 }
 
-.searchbox {
-    position: absolute;
-    left: 0px;
-    margin-top:45px;
-    margin-left: 145px;
+.leftPanel {
+    position: fixed;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width:300px;
+    max-width:400px;
     padding: 15px;
+}
+.searchBox {
+    width:inherit;
     border: 1px solid black;
     border-radius: 10px;
+    padding:0px 15px 15px 15px;
+}
+.searchBox input[type=text]{
+    width: 75%;
+}
+.searchBox div{
+    margin:5px;
+}
+.adBox {
+    width: inherit;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.adBox img,video{
+    width:300px;
+    height:auto;
+    margin-bottom:20px;
 }
 
 input[type=text] {
