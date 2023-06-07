@@ -34,7 +34,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: min(20vw, 300px) auto;
+    grid-template-columns: max(20vw, 120px) auto;
     grid-template-areas: 
         "leftPanel top-feed"
         ". top-feed"
