@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\Jensenswebapp\\JensensWebApp.csproj": {}
+    "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj": {}
   },
   "projects": {
-    "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\Jensenswebapp\\JensensWebApp.csproj": {
+    "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\Jensenswebapp\\JensensWebApp.csproj",
+        "projectUniqueName": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj",
         "projectName": "JensensWebApp",
-        "projectPath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\Jensenswebapp\\JensensWebApp.csproj",
+        "projectPath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\Jensenswebapp\\obj\\",
+        "outputPath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Skola_Programmering\\Visual_Studios_Tools_SDK\\NuGetPackages"

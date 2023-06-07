@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TZgUC5o5EVb0tCPhW2AYeIY5S/bRgvk0UcaGOlWrEl8q6r2GeL1Dw2w7bS9DWLXlS9RKtpklFR0fQoD/aJ2OJw==",
+  "dgSpecHash": "zfweQwhKjtM++SZmabph99sSqMF/hbIjeinpEMP2ZoGOyMkly0SmEfgsEhm04eusqnEvEh8i/ySJ9OCBW7KNgA==",
   "success": true,
-  "projectFilePath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\Jensenswebapp\\JensensWebApp.csproj",
+  "projectFilePath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",

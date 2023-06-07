@@ -127,8 +127,14 @@ body {
     margin-bottom:20px;
 }
 
-input[type=text] {
+.searchBox input[type=text] {
     border-radius: 5px;
     border: 1px solid black;
     margin: 10px;
 }
+
+#login-button:hover {
+    background-color: black;
+    color: white;
+}
+
