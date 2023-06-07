@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zfweQwhKjtM++SZmabph99sSqMF/hbIjeinpEMP2ZoGOyMkly0SmEfgsEhm04eusqnEvEh8i/ySJ9OCBW7KNgA==",
+  "dgSpecHash": "4tfxeNkBEQvkbd5tUwsqQa+snaS+4qGzPT/DkDwmm+C9x7XqoCAefowp1PVHVu0r3Gq60ABRP248HLPZSDIvhA==",
   "success": true,
-  "projectFilePath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
-    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
