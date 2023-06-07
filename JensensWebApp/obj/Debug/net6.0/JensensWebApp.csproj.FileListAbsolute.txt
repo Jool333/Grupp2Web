@@ -153,3 +153,34 @@ D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\De
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\JensensWebApp.pdb
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\JensensWebApp.genruntimeconfig.cache
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\ref\JensensWebApp.dll
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\JensensWebApp.staticwebassets.runtime.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\JensensWebApp.exe
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\JensensWebApp.deps.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\JensensWebApp.runtimeconfig.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\JensensWebApp.dll
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\bin\Debug\net6.0\JensensWebApp.pdb
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.csproj.AssemblyReference.cache
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.AssemblyInfoInputs.cache
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.AssemblyInfo.cs
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.csproj.CoreCompileInputs.cache
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.RazorAssemblyInfo.cache
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.RazorAssemblyInfo.cs
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets\msbuild.JensensWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.JensensWebApp.props
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.JensensWebApp.props
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.JensensWebApp.props
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\scopedcss\bundle\JensensWebApp.styles.css
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\scopedcss\projectbundle\JensensWebApp.bundle.scp.css
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.dll
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\refint\JensensWebApp.dll
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.pdb
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\JensensWebApp.genruntimeconfig.cache
+C:\Users\46739\Desktop\Utveckling av webbapplikationer\New Grupp2 Projekt\JensensWebApp\obj\Debug\net6.0\ref\JensensWebApp.dll
