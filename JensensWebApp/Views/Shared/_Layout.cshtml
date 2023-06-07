@@ -9,18 +9,25 @@
     <link rel="stylesheet" href="~/JensensWebApp.styles.css" asp-append-version="true" />
 </head>
 <body>
-<header>
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-navbar">
             <div class="navbar-header">
                 <div class="header-side-items">
-                    <img src="~/images/logoGrupp2.png" alt="logo1" width="50" height="50" class="small-logo"/>
-                    <a asp-action="login" asp-controller="Account" class="navbar-login">Login</a>
-                    <img src="~/images/image3.jpg" alt="logo3" width="50" height="50" class="settings-logo" />
+                    <div class="nav-head-left">
+                            <img src="~/images/logoGrupp2.png" alt="logo1" class="small-logo" />
+                    </div>
+                    <div class="nav-head-center">
+                            <img src="~/images/image2.jpg" alt="logo2" />
+                    </div>
+                    <div class="nav-head-right">
+                            <a asp-action="login" asp-controller="Account" class="navbar-login">Login</a>
+                            <img src="~/images/image3.jpg" alt="logo3" class="settings-logo" />
+                    </div>
                 </div>
-            <div class="headlin-logo">
-                <img src="~/images/image2.jpg" alt="logo2" width="50" height="50"/>
-            </div>
+                <div class="headlin-logo">
+                    
+                </div>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
@@ -41,8 +48,8 @@
         </div>
     </nav>
 </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <main>
+        <aside class="main__leftPanel">
             <div class="leftPanel">
                 <div class="searchBox">
                     <div>
@@ -61,24 +68,25 @@
                         <a href="">Fler sökalternativ</a>
                     </div>
                 </div>
+
                 <div class="adBox">
                     <div class="ad">
-                        <img src="~/images/hands_to_small.webp"/>
+                        <img src="~/images/hands_to_small.webp" />
                     </div>
                     <div class="ad">
                         <video autoplay loop muted>
                             <source src="~/images/the_two_faces_of_squidward_174.webm" type="audio/webm" />
                         </video>
                     </div>
-                    <div  class="ad">
-                        <img src="~/images/malmo_basta-kebab.webp"/>
+                    <div class="ad">
+                        <img src="~/images/malmo_basta-kebab.webp" />
                     </div>
                 </div>
-            </div>
-            
+            </div>  
+        </aside>
+
             @RenderBody()
-        </main>
-    </div>
+    </main>
 
     <footer class="border-top footer text-muted">
         <div class="container">
