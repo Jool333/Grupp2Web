@@ -5,6 +5,11 @@ section.main__top-feed {grid-area: top-feed}
 section.main__bottom-feed {grid-area: bottom-feed}
 footer {grid-area: footer}
 
+.datetime {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
 
 .main__top-feed{
     margin-left:10rem;
