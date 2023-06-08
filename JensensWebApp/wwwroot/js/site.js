@@ -52,29 +52,29 @@ function loadMore() {
 
 function loadMoreOld() {
     var LoadMoreBTN = document.querySelector("#show-more-old");
-    var CurrentItem = 8;
+    var CurrentItem = 9;
     var isShowMore = true;
     LoadMoreBTN.onclick = () => {
         var boxes = [...document.querySelectorAll('.Other-card')];
         if (isShowMore) {
-            for (var i = CurrentItem; i < CurrentItem + 8; i++) {
+            for (var i = CurrentItem; i < CurrentItem + 9; i++) {
                 if (i < boxes.length) {
                     boxes[i].style.display = 'flex';
                 }
             }
-            CurrentItem += 8;
+            CurrentItem += 9;
             if (CurrentItem >= boxes.length) {
                 LoadMoreBTN.innerHTML = 'Show less';
                 isShowMore = false;
             }
         } else {
-            CurrentItem -= 8;
-            for (var i = CurrentItem; i < CurrentItem + 8; i++) {
+            CurrentItem -= 9;
+            for (var i = CurrentItem; i < CurrentItem + 9; i++) {
                 if (i < boxes.length) {
                     boxes[i].style.display = 'none';
                 }
             }
-            if (CurrentItem <= 8) {
+            if (CurrentItem <= 9) {
                 LoadMoreBTN.innerHTML = 'Show more';
                 isShowMore = true;
             }
