@@ -186,12 +186,6 @@ namespace JensensWebApp.Controllers
 
             return View(articles);
         }
-
-        public IActionResult Loginform()
-        {
-            return View();
-        }
-
         public IActionResult Privacy()
         {
             return View();

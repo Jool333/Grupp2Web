@@ -17,20 +17,20 @@
 
 }
 <section class="main__top-feed">
-    <h1>Articles</h1>
+    <h1>Artiklar</h1>
     <div class="New-card-layout">
         @foreach (var article in Model)
         {
             <div class="New-card">
                 <h5>@article.Title</h5>
                 <p>@article.Summary</p>
-                <a href="@article.Link" target="_blank">Read More</a>
+                <a href="@article.Link" target="_blank">Visa mer</a>
                 <p><small>@article.Published.ToString("yyyy-MM-dd HH:mm:ss")</small></p>
             </div>
         }
     </div>
-    <button id="show-more">Show more</button>
-	<h1>Andra nyheter</h1>
+    <button id="show-more">Visa mer</button>
+	<h1>Äldre nyheter</h1>
 
 	<div class="Other-card-layout">
 		<div class="Other-card">
@@ -154,4 +154,4 @@
 			<p class="r">Published: 2023/06/23</p>
 		</div>
 	</div>
-    <button id="show-more-old">Show more</button>
+    <button id="show-more-old">Visa mer</button>
