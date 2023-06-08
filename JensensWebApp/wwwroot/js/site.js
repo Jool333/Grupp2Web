@@ -84,3 +84,25 @@ function loadMoreOld() {
 loadMore();
 
 loadMoreOld();
+
+function updateDateTime() {
+    var datetimeElement = document.getElementById("datetime");
+    var currentDate = new Date();
+
+    // Format the date and time
+    var day = currentDate.getDate();
+    var month = currentDate.getMonth() + 1; // Months are zero-based
+    var year = currentDate.getFullYear();
+    
+    // Add leading zeros to single-digit numbers
+    month = (month < 10 ? "0" : "") + month;
+    day = (day < 10 ? "0" : "") + day;
+
+    // Construct the formatted date and time string
+    var datetimeString = day + "/" + month + "/" + year;
+
+    // Update the HTML element with the formatted date and time
+    datetimeElement.textContent = datetimeString;
+    
+}
+setInterval(updateDateTime, 1000); // Update every second Helle js uppdateras
