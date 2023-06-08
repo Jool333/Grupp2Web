@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj": {}
+    "C:\\Users\\Simon\\RiderProjects\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj": {
+    "C:\\Users\\Simon\\RiderProjects\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Simon\\RiderProjects\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
         "projectName": "JensensWebApp",
-        "projectPath": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
-        "packagesPath": "C:\\Users\\Johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Johan\\Source\\Repos\\Grupp2Web\\JensensWebApp\\obj\\",
+        "projectPath": "C:\\Users\\Simon\\RiderProjects\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Simon\\RiderProjects\\Grupp2Web\\JensensWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -55,6 +55,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
