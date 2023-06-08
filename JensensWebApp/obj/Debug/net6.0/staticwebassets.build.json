@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TaK4Bgw5dTENX8AdxRIH736qKjvAiI3jRH358hB6cVE=",
+  "Hash": "fAdmA6ZENID6m0jY/O09eD0kuhcS2BgvJquT1/Ig+V0=",
   "Source": "JensensWebApp",
   "BasePath": "_content/JensensWebApp",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\css\\footer.css",
+      "SourceId": "JensensWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\",
+      "BasePath": "_content/JensensWebApp",
+      "RelativePath": "css/footer.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\footer.css"
+    },
     {
       "Identity": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\css\\leftpanel.css",
       "SourceId": "JensensWebApp",
@@ -49,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\loginform.css"
+    },
+    {
+      "Identity": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\css\\navbar.css",
+      "SourceId": "JensensWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\",
+      "BasePath": "_content/JensensWebApp",
+      "RelativePath": "css/navbar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
       "Identity": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\css\\newscard.css",
