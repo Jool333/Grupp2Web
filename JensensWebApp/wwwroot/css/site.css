@@ -8,6 +8,7 @@ footer {grid-area: footer}
 
 .main__top-feed{
     margin-left:10rem;
+    margin-bottom:2rem;
 }
 .main__bottom-feed{
     margin-left:10rem;
@@ -156,18 +157,3 @@ body {
     background-color: lightgrey;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-  
-   
-
-

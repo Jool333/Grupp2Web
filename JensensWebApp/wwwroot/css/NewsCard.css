@@ -7,7 +7,6 @@
 
 .New-card-layout {
     padding: 20px;
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -52,6 +51,7 @@
     border: 1px solid black;
     padding: 10px 30px;
     margin-top: 20px;
+    margin-left:1rem;
     justify-content: center;
 }
 
@@ -73,7 +73,7 @@
 
 .Other-card-layout {
     position: relative;
-    margin: 10px;
+    margin: 1rem;
     flex-direction: column;
 }
 
