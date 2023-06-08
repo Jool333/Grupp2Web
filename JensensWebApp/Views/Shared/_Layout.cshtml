@@ -11,28 +11,6 @@
     <link rel="stylesheet" href="~/css/NewsCard.css" asp-append-version="true" />
 </head>
 <body>
-    <div class="login-modal" id="login-modal">
-        <div class="login-container">
-            <header>Login</header>
-            <div class="form-outer">
-                <form action="#">
-                    <div class="page">                    
-                        <div class="field">
-                            <div class="label">Email</div>
-                            <input type="text" name="email" placeholder="Email" required>
-                            <div class="label">Password</div>
-                            <input type="password" name="password" placeholder="Password" required>
-                            <a href="#">Forgot Password?</a>
-                            <div class="field">
-                                <button>Login</button>
-                                <p>Don't have an account? <a href="#">Sign up now</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-navbar">
@@ -45,9 +23,8 @@
                             <img src="~/images/image2.jpg" alt="logo2" />
                     </div>
                     <div class="nav-head-right">
-                            <button class="login-button" id="login-button">Login</button>
-                            <button type="submit">
-                            </button>
+                            <button class="login-button" id="login-button">Logga in</button>
+                            <img src="~/images/settingsbutton.png">
                     </div>
                 </div>
                 <div class="headlin-logo">
@@ -73,6 +50,28 @@
         </div>
     </nav>
 </header>
+    <div class="login-modal" id="login-modal">
+        <div class="login-container">
+            <header>Logga in</header>
+            <div class="form-outer">
+                <form action="#">
+                    <div class="page">                    
+                        <div class="field">
+                            <div class="label">Email</div>
+                            <input type="text" name="email" placeholder="Email" required>
+                            <div class="label">Lösenord</div>
+                            <input type="password" name="password" placeholder="Lösenord" required>
+                            <a href="#">Glömt lösenord?</a>
+                            <div class="field">
+                                <button>Logga in</button>
+                                <p>Inget konto? <a href="#">Skapa ett nu !</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <main>
         <aside class="main__leftPanel">
             <div class="leftPanel">
