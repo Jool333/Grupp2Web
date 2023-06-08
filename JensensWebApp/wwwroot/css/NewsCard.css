@@ -30,7 +30,9 @@
     .New-card:nth-child(5),
     .New-card:nth-child(6),
     .New-card:nth-child(7),
-    .New-card:nth-child(8) {
+    .New-card:nth-child(8),
+    .New-card:nth-child(9)
+    {
         display: inline;
     }
 
