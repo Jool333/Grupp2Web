@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yassein\\.nuget\\packages\\": {},
-    "H:\\visul studios\\ComptoolsSDKs\\NuGetPackages": {}
+    "C:\\Users\\Johan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yassein\\Documents\\GitHub\\Grupp2Web-yassein\\Grupp2Web-yassein\\JensensWebApp\\JensensWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
       "projectName": "JensensWebApp",
-      "projectPath": "C:\\Users\\yassein\\Documents\\GitHub\\Grupp2Web-yassein\\Grupp2Web-yassein\\JensensWebApp\\JensensWebApp.csproj",
-      "packagesPath": "C:\\Users\\yassein\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yassein\\Documents\\GitHub\\Grupp2Web-yassein\\Grupp2Web-yassein\\JensensWebApp\\obj\\",
+      "projectPath": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
+      "packagesPath": "C:\\Users\\Johan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "H:\\visul studios\\ComptoolsSDKs\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yassein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,24 +62,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -87,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

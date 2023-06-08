@@ -17,9 +17,9 @@
 
 }
 <section class="main__top-feed">
-    <h1>Artiklar</h1>
+    <h1>Senaste nytt</h1>
     <div class="New-card-layout">
-        @foreach (var article in Model)
+        @foreach (var article in Model.Where(i=>i.Published>=DateTime.Today))
         {
             <div class="New-card">
                 <h5>@article.Title</h5>
@@ -31,10 +31,19 @@
     </div>
     <button id="show-more">Visa mer</button>
 </section>
+
 <section class="main__bottom-feed">
 	<h1>Äldre nyheter</h1>
 
 	<div class="Other-card-layout">
+		@foreach (var article in Model.Where(i => i.Published < DateTime.Today))
+		{
+			<div class="Other-card">
+				<h5>@article.Title</h5>
+				<a href="@article.Link" target="_blank">Read more</a>
+				<p class="r">Published: 2023/06/23</p>
+			</div>
+		}
 		<div class="Other-card">
 			<a href="">Read more</a>
 			<h5>Title</h5>

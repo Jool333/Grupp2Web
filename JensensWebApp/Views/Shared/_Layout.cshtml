@@ -8,48 +8,49 @@
     <link rel="stylesheet" href="~/css/loginform.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/JensensWebApp.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/NewsCard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/newscard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/leftpanel.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-navbar">
-            <div class="navbar-header">
-                <div class="header-side-items">
-                    <div class="nav-head-left">
-                            <div class="datetime" id="datetime"></div>
-                    </div>
-                    <div class="nav-head-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-navbar">
+                <div class="navbar-header">
+                    <div class="header-side-items">
+                        <div class="nav-head-left">
+                                <div class="datetime" id="datetime"></div>
+                        </div>
+                        <div class="nav-head-center">
                             <img src="~/images/logoNameGrupp2.png" alt="logo1" class="settings-logo" />
-                    </div>
-                    <div class="nav-head-right">
+                        </div>
+                        <div class="nav-head-right">
                             <button class="login-button" id="login-button">Logga in</button>
                             <img src="~/images/settingGrupp2.png" alt="logo3" class="settings-logo" />
+                        </div>
                     </div>
                 </div>
-                <div class="headlin-logo">
-                    
-                </div>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-titles" href="#">Sport</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navbar-titles" href="#">Fritid</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navbar-titles" href="#">Kultur</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navbar-titles" href="#">Nöje</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navbar-titles" href="#">Sport</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-titles" href="#">Fritid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-titles" href="#">Kultur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbar-titles" href="#">Nöje</a>
+                        </li>
+                    </ul>
+               </div>
+           </div>
+        </nav>
+    </header>
     <div class="login-modal" id="login-modal">
         <div class="login-container">
             <header>Logga in</header>
@@ -112,31 +113,36 @@
     </main>
 
     <footer id="footer-main">
-
         <div class="footer-grid">
             <section class="footer-1">
                 <h3>Kontakta oss</h3>
-                <li><a href="#">Kundservice</a></li>
-                <li><a href="#">Karriär</a></li>
-                <li><a href="#">Investerare</a></li>
+                <ul>
+                    <li><a href="#">Kundservice</a></li>
+                    <li><a href="#">Karriär</a></li>
+                    <li><a href="#">Investerare</a></li>
+                </ul>
             </section>
             <section class="footer-2">
                 <h3>Information</h3>
-                <li><a href="#">Om oss</a></li>
-                <li><a href="#">Personuppgiftspolicy</a></li>
-                <li><a href="#">Allmänna villkor</a></li>
+                <ul>
+                    <li><a href="#">Om oss</a></li>
+                    <li><a href="#">Personuppgiftspolicy</a></li>
+                    <li><a href="#">Allmänna villkor</a></li>
+                </ul>
             </section>
             <section class="footer-3">
                 <h3>Tipsa oss</h3>
-                <li><a href="#">0701234567</a></li>
-                <li><a href="#">1234@nyhetskungen.se</a></li>
+                <ul>
+                    <li><a href="#">0701234567</a></li>
+                    <li><a href="#">1234@nyhetskungen.se</a></li>
+                </ul>
             </section>
         </div>
         <div class="copyright-footer">
             &copy; Copyright 2023 - Grupp 2 Jensen
         </div>
-
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
