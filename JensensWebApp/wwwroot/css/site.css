@@ -26,6 +26,15 @@ footer {grid-area: footer}
 html {
     font-size: 14px;
 }
+button {
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
 
 @media (min-width: 768px) {
   html {

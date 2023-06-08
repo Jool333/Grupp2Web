@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - JensensWebApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/loginform.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/optionsform.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/JensensWebApp.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/newscard.css" asp-append-version="true" />
@@ -20,14 +21,16 @@
                 <div class="navbar-header">
                     <div class="header-side-items">
                         <div class="nav-head-left">
-                                <div class="datetime" id="datetime"></div>
+                            <div class="datetime" id="datetime">@DateTime.Now.ToString("dd\\/MM\\/yyyy")</div>
                         </div>
                         <div class="nav-head-center">
                             <img src="~/images/logoNameGrupp2.png" alt="logo1" class="settings-logo" />
                         </div>
                         <div class="nav-head-right">
                             <button class="login-button" id="login-button">Logga in</button>
-                            <img src="~/images/settingGrupp2.png" alt="logo3" class="settings-logo" />
+                            <button id="options-button">
+                                <img src="~/images/settingGrupp2.png" alt="logo3" class="settings-logo" />
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -73,22 +76,37 @@
             </div>
         </div>
     </div>
+    <div class="options-modal" id="options-modal">
+        <div class="options-container">
+            <header>Inställningar</header>
+            <div class="form-outer">
+                <form action="#">
+                    <div class="page">
+                        <div class="field">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <main>
         <aside class="main__leftPanel">
             <div class="leftPanel">
                 <div class="searchBox">
                     <div>
                         <input type="text" name="searchbar" placeholder="Sök..." />
-                        <input type="submit" name="submitSearch" value="Sök"/>
+                        <button type="submit" name="submitSearch">Sök</button>
                     </div>
-                    <div>
-                        <label for="sort">Sortera</label>
-                        <select name="sort" id="sort">
+                    
+                        @using (Html.BeginForm("Sort", "Home", FormMethod.Post))
+                        {
+                        <label for="sortBy">Sortera</label>
+                        <select name="sortBy" id="sortBy" onchange="this.form.submit()">
                             <option>Välj ett alternativ</option>
                             <option value="New">Nyaste först</option>
-                            <option value="Old">Älsta först</option>
+                            <option value="Old">Äldsta först</option>
                         </select>
-                    </div>
+                        }
                     <div>
                         <a href="">Fler sökalternativ</a>
                     </div>
