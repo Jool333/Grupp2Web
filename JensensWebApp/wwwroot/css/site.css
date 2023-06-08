@@ -50,6 +50,16 @@ html {
   min-height: 100%;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 body {
     display: grid;
     grid-template-columns: 0 auto 0;

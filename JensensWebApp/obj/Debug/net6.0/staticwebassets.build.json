@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KsQn0rRgrdf0DzFSQb8tggbMTwwiLm907M9VuY2drEA=",
+  "Hash": "acfDcmd2x0muZdKP6O72bGdEsMbiewl5lADhhRqYQwY=",
   "Source": "JensensWebApp",
   "BasePath": "_content/JensensWebApp",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\JensensWebApp.styles.css",
-      "SourceId": "JensensWebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/JensensWebApp",
-      "RelativePath": "JensensWebApp.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\JensensWebApp.styles.css"
-    },
-    {
-      "Identity": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JensensWebApp.bundle.scp.css",
-      "SourceId": "JensensWebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/JensensWebApp",
-      "RelativePath": "JensensWebApp.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JensensWebApp.bundle.scp.css"
-    },
     {
       "Identity": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\css\\loginform.css",
       "SourceId": "JensensWebApp",

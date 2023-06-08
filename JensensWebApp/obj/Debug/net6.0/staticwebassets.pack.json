@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JensensWebApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\JensensWebApp.bundle.scp.css"
-    },
-    {
       "Id": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\css\\loginform.css",
       "PackagePath": "staticwebassets\\css\\loginform.css"
     },
