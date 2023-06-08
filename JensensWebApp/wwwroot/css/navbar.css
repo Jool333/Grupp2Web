@@ -34,7 +34,6 @@
     text-align:center;
 }
 .nav-head-center img {
-    width: 100%;
     height: auto;
 }
 .nav-head-right img {
@@ -46,7 +45,11 @@
     margin: 0 1rem;
     text-decoration: none;
 }
+#login-button{
+    transition: background-color 0.3s ease;
+}
 #login-button:hover {
-    background-color: lightgrey;
+    border-radius: 0.3rem   ;
+    background-color: black;
     color: white;
 }

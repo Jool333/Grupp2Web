@@ -50,15 +50,16 @@
 .login-container button {
     width: 100%;
     padding: 0.5rem;
-    color: #ffffff;
-    background-color: #000000;
-    border: none;
+    color: black;
+    background-color: white;
+    border: black solid 1px;
     border-radius: 0.3rem;
     transition: background-color 0.3s ease;
 }
 
 .login-container button:hover {
-    background-color: #444444;
+    background-color: black;
+    color: white;
 }
 
 .login-container a {
