@@ -111,10 +111,31 @@
             @RenderBody()
     </main>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - JensensWebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer id="footer-main">
+
+        <div class="footer-grid">
+            <section class="footer-1">
+                <h3>Kontakta oss</h3>
+                <li><a href="#">Kundservice</a></li>
+                <li><a href="#">Karriär</a></li>
+                <li><a href="#">Investerare</a></li>
+            </section>
+            <section class="footer-2">
+                <h3>Information</h3>
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Personuppgiftspolicy</a></li>
+                <li><a href="#">Allmänna villkor</a></li>
+            </section>
+            <section class="footer-3">
+                <h3>Tipsa oss</h3>
+                <li><a href="#">0701234567</a></li>
+                <li><a href="#">1234@nyhetskungen.se</a></li>
+            </section>
         </div>
+        <div class="copyright-footer">
+            &copy; Copyright 2023 - Grupp 2 Jensen
+        </div>
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
