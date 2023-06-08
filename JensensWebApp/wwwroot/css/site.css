@@ -108,8 +108,23 @@ body {
   justify-content: center;
   width: 100%;
   list-style-type: none;
-  padding: 0;
+  padding: 15px;
   margin-top: 1rem;
+}
+
+.nav-head-center img {
+  width: 40%;
+  height: auto;
+  justify-content: center;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-head-right img {
+  width: 30px;
+  height: auto;
 }
 
 .leftPanel {
