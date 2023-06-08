@@ -145,9 +145,7 @@ D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\De
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\staticwebassets.pack.json
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\staticwebassets.build.json
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\staticwebassets.development.json
-D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\scopedcss\bundle\JensensWebApp.styles.css
-D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\scopedcss\projectbundle\JensensWebApp.bundle.scp.css
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\JensensWebApp.dll
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\refint\JensensWebApp.dll
 D:\Skola_Programmering\Github_desktop\Repositorys\Grupp2Web\Jensenswebapp\obj\Debug\net6.0\JensensWebApp.pdb
