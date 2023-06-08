@@ -19,6 +19,8 @@ footer {grid-area: footer}
 }
 .header-side-items button {
     height: 3rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
     width: auto;
 }
 html {
