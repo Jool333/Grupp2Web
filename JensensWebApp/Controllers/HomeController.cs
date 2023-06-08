@@ -202,7 +202,7 @@ namespace JensensWebApp.Controllers
                     break;
             }
 
-            return View(articles);
+            return RedirectToAction(nameof(Index), articles);
 
         }
         public IActionResult Categories(string topic = "")
