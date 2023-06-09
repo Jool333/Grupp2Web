@@ -44,3 +44,12 @@
     margin: 0 1rem;
     text-decoration: none;
 }
+
+.settings-logo {
+    filter: invert(0%);
+}
+
+.dark-mode-logo{
+    filter: invert(100%);
+}
+

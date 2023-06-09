@@ -118,12 +118,16 @@ function updateDateTime() {
 setInterval(updateDateTime, 1000); // Update every second Helle js uppdateras
 
 const toggleSwitch = document.getElementById('toggle');
+const logo = document.getElementById("settings-logo");
 const body = document.body;
+
 
 toggleSwitch.addEventListener('change', function() {
     if (this.checked) {
         body.classList.add('dark-mode');
+        logo.classList.add('dark-mode-logo');
     } else {
         body.classList.remove('dark-mode');
+        logo.classList.remove('dark-mode-logo');
     }
 });
