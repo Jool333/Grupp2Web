@@ -62,15 +62,6 @@ html {
   min-height: 100%;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline;
-}
 
 body {
     display: grid;
@@ -82,12 +73,22 @@ body {
         "footer footer footer";
 }
 
-
 body {
     background-color: #eee;
     color: #333;
     transition: background-color 0.3s ease;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
 
 .dark-mode a {
     color: white;
