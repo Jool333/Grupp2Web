@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tbcUhadEnTfbvbjIq3ZkNy6heYqxW2MSw0uso6R4QUwwXRYReG+ly1PN28RRT6aOpiWx4Rnr9FMLpikbV0CSdA==",
+  "dgSpecHash": "zfweQwhKjtM++SZmabph99sSqMF/hbIjeinpEMP2ZoGOyMkly0SmEfgsEhm04eusqnEvEh8i/ySJ9OCBW7KNgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\JensensWebApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\JensensWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Kevin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
