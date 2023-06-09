@@ -118,12 +118,19 @@ function updateDateTime() {
 setInterval(updateDateTime, 1000); // Update every second Helle js uppdateras
 
 const toggleSwitch = document.getElementById('toggle');
+const logo = document.getElementById("settings-logo");
+const navlink = document.getElementById("nav-link-Optinal");
 const body = document.body;
+
 
 toggleSwitch.addEventListener('change', function() {
     if (this.checked) {
         body.classList.add('dark-mode');
+        logo.classList.add('dark-mode-logo');
+        navlink.classList.toggle('dark-mode-navlink');
     } else {
         body.classList.remove('dark-mode');
+        logo.classList.remove('dark-mode-logo');
+        navlink.classList.toggle('navbar-nav li a');
     }
 });

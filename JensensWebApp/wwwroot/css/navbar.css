@@ -52,6 +52,21 @@
     padding: 0 1rem;
 }
 
+.settings-logo {
+    filter: invert(0%);
+}
+
+.dark-mode-logo{
+    filter: invert(100%);
+}
+
+.dark-mode-linknav {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
 .navbar-nav li a:hover {
     color: black;
     text-decoration: underline;
