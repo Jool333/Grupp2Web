@@ -55,7 +55,7 @@
         </nav>
     </header>
     <div class="login-modal" id="login-modal">
-        <div class="login-container">
+        <div class="login-container" id="login-box">
             <header>Logga in</header>
             <div class="form-outer">
                 <form action="#">
@@ -68,7 +68,7 @@
                             <a href="#">Glömt lösenord?</a>
                             <div class="field">
                                 <button>Logga in</button>
-                                <p>Inget konto? <a href="#">Skapa ett nu !</a></p>
+                                <p>Inget konto? <a href="#">Skapa ett nu!</a></p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
         </div>
     </div>
     <div class="options-modal" id="options-modal">
-        <div class="options-container">
+        <div class="options-container" id="options-box">
             <header>Inställningar</header>
                                 <div class="toggle-container">
                         <input type="checkbox" id="toggle" />
@@ -131,6 +131,9 @@
                 </div>
             </div>  
         </aside>
+        <div id ="scrollToTopBtn" class="returnToTop" onclick="scrollToTop()">
+            <button><img src="~/images/returnToTop.png"/></button>
+        </div>
             @RenderBody()
     </main>
 

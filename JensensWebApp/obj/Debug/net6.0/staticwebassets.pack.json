@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\images\\logoNameGrupp2.png"
     },
     {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\returnToTop.png",
+      "PackagePath": "staticwebassets\\images\\returnToTop.png"
+    },
+    {
       "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\settingGrupp2.png",
       "PackagePath": "staticwebassets\\images\\settingGrupp2.png"
     },

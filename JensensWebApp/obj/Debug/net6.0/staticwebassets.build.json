@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0/BfTcK97cM8qGveJQ1r6bDrNQ2RZLfcYlPo/zEUt1s=",
+  "Hash": "4lRzWVLHfeMfaHyL6v6hHQ2XHXDZQmjXszclCCDPRBo=",
   "Source": "JensensWebApp",
   "BasePath": "_content/JensensWebApp",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Malmo_basta-kebab.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\returnToTop.png",
+      "SourceId": "JensensWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\",
+      "BasePath": "_content/JensensWebApp",
+      "RelativePath": "images/returnToTop.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\returnToTop.png"
     },
     {
       "Identity": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\settingGrupp2.png",

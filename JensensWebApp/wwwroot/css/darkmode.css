@@ -16,3 +16,7 @@
     font-size: 1.5rem;
     padding: 0 1rem;
 }
+.darkmode-popup{
+    background-color:inherit;
+    color:inherit;
+}

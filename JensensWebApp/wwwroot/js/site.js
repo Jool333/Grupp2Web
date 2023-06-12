@@ -120,7 +120,8 @@ setInterval(updateDateTime, 1000); // Update every second Helle js uppdateras
 const toggleSwitch = document.getElementById('toggle');
 const logo = document.getElementById("settings-logo");
 const navlink = document.getElementById("nav-link-Optional");
-const cards = document.getElementById("New-card");
+const login = document.getElementById("login-box");
+const options = document.getElementById("options-box");
 const body = document.body;
 
 
@@ -129,10 +130,34 @@ toggleSwitch.addEventListener('change', function() {
         body.classList.add('dark-mode');
         logo.classList.add('dark-mode-logo');
         navlink.classList.add('dark-mode-navlink');
-        cards.classList.toggle('darkmode-New-card');
+        login.classList.add('darkmode-popup');
+        options.classList.add('darkmode-popup');
+
     } else {
         body.classList.remove('dark-mode');
         logo.classList.remove('dark-mode-logo');
         navlink.classList.remove('dark-mode-navlink');
+        login.classList.remove('darkmode-popup');
+        options.classList.remove('darkmode-popup');
     }
 });
+
+function scrollToTop() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+}
+var rootElement = document.documentElement
+
+
+function handleScroll() {
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+    if ((rootElement.scrollTop / scrollTotal) > 0.20) {
+        // Show button
+        scrollToTopBtn.classList.add("showBtn")
+    } else {
+        // Hide button
+        scrollToTopBtn.classList.remove("showBtn")
+    }
+}
+
+
+document.addEventListener("scroll", handleScroll)
