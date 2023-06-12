@@ -42,7 +42,7 @@ function loadMore() {
             }
             CurrentItem += 9;
             if (CurrentItem >= boxes.length) {
-                LoadMoreBTN.innerHTML = 'Show less';
+                LoadMoreBTN.innerHTML = 'Visa mindre';
                 isShowMore = false;
             }
         } else {
@@ -53,7 +53,7 @@ function loadMore() {
                 }
             }
             if (CurrentItem <= 9) {
-                LoadMoreBTN.innerHTML = 'Show more';
+                LoadMoreBTN.innerHTML = 'Visa mer';
                 isShowMore = true;
             }
         }
@@ -74,7 +74,7 @@ function loadMoreOld() {
             }
             CurrentItem += 8;
             if (CurrentItem >= boxes.length) {
-                LoadMoreBTN.innerHTML = 'Show less';
+                LoadMoreBTN.innerHTML = 'Visa mindre';
                 isShowMore = false;
             }
         } else {
@@ -85,7 +85,7 @@ function loadMoreOld() {
                 }
             }
             if (CurrentItem <= 8) {
-                LoadMoreBTN.innerHTML = 'Show more';
+                LoadMoreBTN.innerHTML = 'Visa mer';
                 isShowMore = true;
             }
         }
