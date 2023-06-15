@@ -24,6 +24,12 @@
                     <div class="header-side-items">
                         <div class="nav-head-left">
                             <div class="datetime" id="datetime">@DateTime.Now.ToString("dd\\/MM\\/yyyy")</div>
+                            <div id="weather" class="weather-button-container">
+                                <button id="weatherButton">
+                                    <img src="weather-current.webp" alt="Weather not found" />
+                                    <div id="temperature">Temp:</div>
+                                </button>
+                            </div>
                         </div>
                         <div class="nav-head-center">
                             <img src="~/images/logoNameGrupp2.png" alt="logo1" id="settings-logo" />
@@ -180,6 +186,7 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/adScript.js" asp-append-version="true"></script>
+    <script src="~/js/weather.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -130,23 +130,14 @@ a,li a {
 #toggle:checked + .toggle-label:before {
     transform: translateX(25px);
 }
-.returnToTo{
-    position:sticky;
-    top:50%;
-    left:100%;
-    align-items:right;
-    margin-right:70%;
-    margin-left:auto;
-}
+
 .returnToTop {
     position: sticky;
     bottom: 15%;
-    left: 100%;
-    margin-right: 70%;
-    margin-left: auto;
+    left: 90%;
+    width:4rem;
     padding-bottom: 1rem;
     z-index: 100;
-    opacity: 0;
     transform: translateY(100px);
     transition: all .5s ease;
 }

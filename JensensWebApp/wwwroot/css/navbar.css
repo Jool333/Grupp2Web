@@ -65,3 +65,17 @@
 .permainv{
     filter:invert(1);
 }
+
+.weather-button-container{
+    
+
+}.weather-button-container button{
+    background-color: transparent;
+    color:inherit;
+    border:none;
+}
+.weather-button-container button:hover{
+    color:inherit;
+    border:none;
+    text-decoration: underline;
+}

@@ -98,12 +98,15 @@ loadMoreOld();
 function updateDateTime() {
     var datetimeElement = document.getElementById("datetime");
     var currentDate = new Date();
-
+    const currTime = currentDate.getTime();
+    const midnight = currentDate.getDate() + 1;
+    midnight.setHours(0, 0, 0, 0);
+    const diff = midnight - currTime;
     // Format the date and time
     var day = currentDate.getDate();
     var month = currentDate.getMonth() + 1; // Months are zero-based
     var year = currentDate.getFullYear();
-    
+
     // Add leading zeros to single-digit numbers
     month = (month < 10 ? "0" : "") + month;
     day = (day < 10 ? "0" : "") + day;
@@ -113,9 +116,8 @@ function updateDateTime() {
 
     // Update the HTML element with the formatted date and time
     datetimeElement.textContent = datetimeString;
-    
+    setInterval(updateDateTime, diff); // Update every time midnight hits
 }
-setInterval(updateDateTime, 1000); // Update every second Helle js uppdateras
 
 const toggleSwitch = document.getElementById('toggle');
 const logo = document.getElementById("settings-logo");
