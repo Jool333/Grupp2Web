@@ -160,6 +160,54 @@ function handleScroll() {
         scrollToTopBtn.classList.remove("showBtn")
     }
 }
+function displayWeather() {
+    const weatherForecast = [
+        { day: 'Måndag', temperature: 28, condition: 'Soligt', icon: 'fa-sun' },
+        { day: 'Tisdag', temperature: 26, condition: 'Molnigt', icon: 'fa-cloud' },
+        { day: 'Onsdag', temperature: 25, condition: 'Regnigt', icon: 'fa-cloud-showers-heavy' },
+        { day: 'Torsdag', temperature: 30, condition: 'Soligt', icon: 'fa-sun' },
+        { day: 'Fredag', temperature: 29, condition: 'Delvis molnigt', icon: 'fa-cloud-sun' },
+        { day: 'Lördag', temperature: 27, condition: 'Soligt', icon: 'fa-sun' },
+        { day: 'Söndag', temperature: 24, condition: 'Regnigt', icon: 'fa-cloud-showers-heavy' }
+    ];
+
+    const forecastContainer = document.getElementById('forecast');
+
+    forecastContainer.innerHTML = '';
+    // Generate the HTML markup for each forecast item
+    weatherForecast.forEach((forecast) => {
+        const { day, temperature, condition, icon } = forecast;
+
+        const forecastItem = document.createElement('div');
+        forecastItem.classList.add('forecast-item');
+
+        const dayElement = document.createElement('div');
+        dayElement.classList.add('day');
+        dayElement.textContent = day;
+
+        const iconElement = document.createElement('i');
+        iconElement.classList.add('condition-icon');
+        iconElement.classList.add('fas');
+        iconElement.classList.add(icon);
+
+        const temperatureElement = document.createElement('div');
+        temperatureElement.classList.add('temperature');
+        temperatureElement.textContent = `${temperature}°C`;
+
+        const conditionElement = document.createElement('div');
+        conditionElement.classList.add('condition');
+        conditionElement.textContent = condition;
+
+        forecastItem.appendChild(dayElement);
+        forecastItem.appendChild(iconElement);
+        forecastItem.appendChild(temperatureElement);
+        forecastItem.appendChild(conditionElement);
+
+        forecastContainer.appendChild(forecastItem);
+    });
+}
+
+displayWeather();
 
 
 document.addEventListener("scroll", handleScroll)
