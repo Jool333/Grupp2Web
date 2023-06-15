@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aB6Ql2/+c5LHXesC6s91gXiqUO8jJE2QhXzv6T6HIAU=",
+  "Hash": "oCZvEIJQ81nQrel02E5JvaYoguix2UGRNCyW/EXAOQc=",
   "Source": "JensensWebApp",
   "BasePath": "_content/JensensWebApp",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\The_Two_Faces_of_Squidward_174.webm"
+    },
+    {
+      "Identity": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\js\\adScript.js",
+      "SourceId": "JensensWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\",
+      "BasePath": "_content/JensensWebApp",
+      "RelativePath": "js/adScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\adScript.js"
     },
     {
       "Identity": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\js\\site.js",

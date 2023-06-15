@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\images\\settingGrupp2.png"
     },
     {
+      "Id": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\js\\adScript.js",
+      "PackagePath": "staticwebassets\\js\\adScript.js"
+    },
+    {
       "Id": "D:\\Skola_Programmering\\Github_desktop\\Repositorys\\Grupp2Web\\jensenswebapp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

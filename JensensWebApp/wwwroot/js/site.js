@@ -1,4 +1,4 @@
-﻿window.onload = function() {
+﻿window.addEventListener('load', function() {
     // Get the modal and the login button
     var modal = document.getElementById('login-modal');
     var btn = document.getElementById('login-button');
@@ -24,7 +24,7 @@
             modal2.style.display = "none";
         }
     }
-}
+});
 
 
 /* Show more for other articles */
