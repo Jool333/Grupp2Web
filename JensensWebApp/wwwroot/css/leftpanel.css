@@ -31,14 +31,25 @@
     height: 100%;
 }
 
-    .adBox img, video {
+    .adBox img{
+        width: 18rem;
+        height: 15rem;
+        margin-bottom: 20px;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .adBox video {
         width: 18rem;
         height: auto;
         margin-bottom: 20px;
+
     }
 
 .searchBox input[type=text] {
     border-radius: 5px;
     border: 1px solid black;
     margin: 10px;
+}
+.adBox img.show, .adBox video.show {
+    opacity: 1;
 }
