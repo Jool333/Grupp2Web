@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/darkmode.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ads.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -116,18 +117,19 @@
                     </div>
                 </div>
 
-                <div class="adBox">
-                    <div class="ad">
-                        <img src="~/images/hands_to_small.webp" />
-                    </div>
-                    <div class="ad">
-                        <video autoplay loop muted>
-                            <source src="~/images/the_two_faces_of_squidward_174.webm" type="audio/webm" />
-                        </video>
-                    </div>
-                    <div class="ad">
-                        <img src="~/images/malmo_basta-kebab.webp" />
-                    </div>
+            <div class="adBox">
+                <div class="ad" class="fade-effect">
+                    <img id="adBanner1"/>
+                </div>
+                <div class="ad">
+                    <video autoplay loop muted>
+                    <source src="/images/the_two_faces_of_squidward_174.webm" type="video/webm" /></video>
+                </div>
+                <div class="ad" class="fade-effect">
+                    <img id="adBanner2"/>
+                </div>
+            </div>
+
                 </div>
             </div>  
         </aside>
@@ -177,6 +179,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/adScript.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
