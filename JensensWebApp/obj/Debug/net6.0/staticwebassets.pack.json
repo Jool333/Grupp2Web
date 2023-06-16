@@ -65,6 +65,110 @@
       "PackagePath": "staticwebassets\\images\\settingGrupp2.png"
     },
     {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\clear_day.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\clear_day.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\clear_night.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\clear_night.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\cloudy.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\cloudy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\drizzle.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\drizzle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\flurries.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\flurries.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\fog.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\fog.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\fog_light.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\fog_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\freezing_drizzle.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\freezing_drizzle.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\freezing_rain.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\freezing_rain.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\freezing_rain_heavy.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\freezing_rain_heavy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\freezing_rain_light.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\freezing_rain_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\ice_pellets.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\ice_pellets.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\ice_pellets_heavy.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\ice_pellets_heavy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\ice_pellets_light.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\ice_pellets_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\mostly_clear_day.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\mostly_clear_day.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\mostly_clear_night.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\mostly_clear_night.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\mostly_cloudy.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\mostly_cloudy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\partly_cloudy_day.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\partly_cloudy_day.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\partly_cloudy_night.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\partly_cloudy_night.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\rain.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\rain.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\rain_heavy.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\rain_heavy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\rain_light.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\rain_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\snow.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\snow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\snow_heavy.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\snow_heavy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\snow_light.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\snow_light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\images\\weather\\tstorm.svg",
+      "PackagePath": "staticwebassets\\images\\weather\\tstorm.svg"
+    },
+    {
       "Id": "C:\\Users\\Johan\\Documents\\GitHub\\Grupp2Web\\JensensWebApp\\wwwroot\\js\\adScript.js",
       "PackagePath": "staticwebassets\\js\\adScript.js"
     },
