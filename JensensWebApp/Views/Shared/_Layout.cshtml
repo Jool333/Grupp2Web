@@ -26,7 +26,7 @@
                             <div class="datetime" id="datetime">@DateTime.Now.ToString("dd\\/MM\\/yyyy")</div>
                             <div id="weather" class="weather-button-container">
                                 <button id="weatherButton">
-                                    <img src="weather-current.webp" alt="Weather not found" />
+                                    <img src="weather-current.webp" alt="Weather not found" id="condition"/>
                                     <div id="temperature">Temp:</div>
                                 </button>
                             </div>
@@ -69,6 +69,7 @@
            </div>
         </nav>
     </header>
+    
     <div class="login-modal" id="login-modal">
         <div class="login-container" id="login-box">
             <header>Logga in</header>
@@ -131,19 +132,18 @@
                     </div>
                 </div>
 
-            <div class="adBox">
-                <div class="ad">
-                    <img id="adBanner1"/>
-                </div>
-                <div class="ad">
-                    <video autoplay loop muted>
-                    <source src="/images/the_two_faces_of_squidward_174.webm" type="video/webm" /></video>
-                </div>
-                <div class="ad">
-                    <img id="adBanner2"/>
-                </div>
-            </div>
-
+                <div class="adBox">
+                    <div class="ad">
+                        <img id="adBanner1"/>
+                    </div>
+                    <div class="ad">
+                        <video autoplay loop muted>
+                            <source src="/images/the_two_faces_of_squidward_174.webm" type="video/webm" />
+                        </video>
+                    </div>
+                    <div class="ad">
+                        <img id="adBanner2"/>
+                    </div>
                 </div>
             </div>  
         </aside>
